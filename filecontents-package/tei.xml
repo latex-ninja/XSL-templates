@@ -1,0 +1,110 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A Title</title>
+        <author>Spongebob</author>
+      </titleStmt>
+     <publicationStmt>
+       <publisher>LaTeX Ninja</publisher>
+     </publicationStmt>
+      <sourceDesc>
+        <ab>An example for filecontents. Using example bibliography from books on Pheadrus <listBibl type="text1">
+            <biblStruct xml:id="Guaglianone-1969">
+              <analytic>
+                <title></title>
+                <author>
+                  <persName>Phaedrus</persName>
+                </author>
+              </analytic>
+              <monogr>
+                <title>Phaedri Augusti Liberti Liber Fabularum. Recensuit A. Guaglianone</title>
+                <editor>
+                  <persName>A. Guaglianone</persName>
+                </editor>
+                <imprint>
+                  <pubPlace>
+                    <placeName>Torino</placeName>
+                  </pubPlace>
+                  <date when="1969">1969</date>
+                </imprint>
+              </monogr>
+            </biblStruct>
+          </listBibl>
+          <listBibl type="text2">
+            <biblStruct xml:id="Gaertner-2011">
+              <analytic>
+                <title>palam muttire plebeio piaculum est. Die Fabeln des Phaedrus als literarische
+                  Kommunikationsform in der frühen Kaiserzeit</title>
+                <author>
+                  <persName>
+                    <surname>Gärtner</surname>, <forename>U.</forename>
+                  </persName>
+                </author>
+              </analytic>
+              <monogr>
+                <title>Römische Werte und römische Literatur im frühen Prinzipat</title>
+                <editor>
+                  <persName>A. Haltenhoff</persName>
+                  <persName>A. Heil</persName>
+                  <persName>F.-H. Mutschler</persName>
+                </editor>
+                <imprint>
+                  <pubPlace>
+                    <placeName>Berlin</placeName>
+                    <placeName>New York</placeName>
+                  </pubPlace>
+                  <date when="2011">2011</date>
+                </imprint>
+              </monogr>
+              <citedRange>253-77</citedRange>
+            </biblStruct>
+            
+            <biblStruct xml:id="Gaertner-2015">
+              <analytic>
+                <title></title>
+                <author>
+                  <persName>
+                    <surname>Gärtner</surname>, <forename>U.</forename>
+                  </persName>
+                </author>
+              </analytic>
+              <monogr>
+                <title>Phaedrus. Ein Interpretationskommentar zum ersten Buch der Fabeln</title>
+                <imprint>
+                  <pubPlace>
+                    <placeName>München</placeName>
+                  </pubPlace>
+                  <date when="2015">2015</date>
+                </imprint>
+              </monogr>
+            </biblStruct>
+          </listBibl>
+          
+        </ab>
+      </sourceDesc>
+    </fileDesc>
+   
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>An example text</head>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.\footcite[cf.][]{Gaertner2015} 
+          <!-- attention, this is not how it should appear in your TEI data! make sure you don't forget to define templates for handling footnotes and citations within footnotes. -->
+          Curabitur massa massa, sodales a mollis vitae, molestie vitae diam. Etiam eros ex, condimentum sit amet aliquet hendrerit, efficitur sit amet ligula. Quisque id sodales metus. Quisque dictum mauris ligula. Nullam quis nunc euismod, mattis dui eget, tincidunt nibh. Praesent diam risus, scelerisque nec viverra imperdiet, consequat nec dolor. Sed nulla ipsum, maximus ut lacinia sodales, eleifend scelerisque nisi. Nulla facilisi.
+          
+          Suspendisse varius et erat rutrum posuere. Suspendisse sit amet dui mi. Praesent mattis dui eu vulputate ultrices. Quisque bibendum eget nulla vitae imperdiet. Sed sit amet molestie neque. Suspendisse congue, est eget sollicitudin convallis, nibh erat commodo neque, vitae ullamcorper lorem nulla at arcu. Aenean aliquam purus non dolor efficitur vulputate. Nam eu leo vel metus egestas hendrerit ut sed dui. Pellentesque non tristique enim. Maecenas ultricies lacus vel consectetur tincidunt. Sed id nunc imperdiet, feugiat tellus nec, malesuada ligula. Nulla sit amet dolor diam.
+          
+          Suspendisse condimentum scelerisque libero quis commodo. Duis eget lorem nec ante consequat auctor sit amet sed leo. Duis vitae ultricies lectus, quis rhoncus neque. Curabitur vestibulum aliquet ex et feugiat. Etiam sodales iaculis nunc eu varius. Nullam nec nibh a lorem mattis sodales. Aliquam eu nisi at augue efficitur finibus.
+          
+          In lacinia pretium nulla eget cursus. Sed gravida neque lorem, at placerat enim mollis a. Pellentesque sed leo eget dui vehicula maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur imperdiet dignissim lorem sed molestie. Curabitur egestas, velit eu suscipit suscipit, metus sem fermentum leo, id vestibulum ligula sapien ut ligula. Fusce elementum eleifend risus, a elementum libero convallis nec. Donec elementum elit laoreet purus rutrum, et cursus turpis sollicitudin. Aliquam erat volutpat. In hac habitasse platea dictumst.
+          
+          Duis ut mi vitae tortor congue ullamcorper ut et nulla. Sed blandit ante ullamcorper sapien sollicitudin, vel posuere quam scelerisque. In pharetra tempor lectus vel interdum. Nunc nunc nisl, viverra ac placerat ac, lobortis volutpat purus. Fusce eget ultricies sem, eu interdum elit. Nullam et mollis massa, quis fringilla felis. Morbi ante nisi, tristique ac efficitur eu, commodo vitae enim. Phasellus eu ultrices nisi. Quisque nec nisl nisl.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
